@@ -1,3 +1,4 @@
+import '../../App.css';
 import BlogList from '../BlogList/BlogList.component';
 import useFetch from '../customhook/useFetch';
 import { useLocation } from 'react-router';
@@ -10,7 +11,9 @@ const Home = () => {
    const location = useLocation();
    
    const notify = (data) => {
-      toast.success(data, {position: toast.POSITION.BOTTOM_CENTER});
+      toast.success(data, {
+         position: toast.POSITION.BOTTOM_CENTER
+      });
    };
 
    const toasters = () => {

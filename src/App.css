@@ -6,3 +6,18 @@
 *{
    font-family: 'Quicksand', sans-serif;
 }
+.Toastify__toast--success{
+   background-color: #519872 !important;
+   font-weight: 900;
+   display: flex !important;
+   align-items: center !important;
+   max-height: 30px !important;
+   font-size: 18px !important;
+}
+.Toastify__toast--success .Toastify__toast-body{
+   margin: 0 !important;
+   padding: 0 5px !important;
+}
+.Toastify__toast--success .Toastify__close-button{
+   margin-top: 15px !important;
+}
